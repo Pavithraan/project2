@@ -1,0 +1,188 @@
+#card
+{
+    /* padding-left: 10px; */
+    justify-content: center;
+}
+/* #card:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+#c1,#c2,#c3
+{
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer; 
+}
+#c1:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(54, 252, 4, 0.918), 0 4px 8px rgba(236, 9, 168, 0.877);
+}
+#c2:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(54, 252, 4, 0.918), 0 4px 8px rgba(236, 9, 168, 0.877);
+}
+#c3:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(54, 252, 4, 0.918), 0 4px 8px rgba(236, 9, 168, 0.877);
+}
+/* #c2
+{
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+#c3
+{
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+} */
+#cards,.slider-img
+{
+    background-image: linear-gradient(to left,rgb(25, 1, 63),rgb(53, 66, 253));
+}
+.text
+{
+    background-color: rgb(25, 1, 63);
+    font-size: xx-large;
+     text-align: center;
+     overflow: hidden;
+     /* animation: animtext 4s steps(80, end); 
+     transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);   */
+}
+h1
+{
+    font-size: 400%;
+}
+#main
+{
+    background-color: rgb(13, 41, 83);
+    font-size: larger;
+}
+#slide
+{
+    width: 100%;
+    height: 20%;
+}
+.container
+{
+    height: 20%;
+}
+#t1
+{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+#con
+{
+    padding: 10%;
+    text-align: center;
+    font-size: larger;
+    color: black;
+    background-color: rgb(204, 152, 206);
+}
+#form
+{
+    background-color: rgb(25, 1, 63);
+    color: white;
+}
+/* #su
+{
+    background-color: greenyellow;
+} */
+/* #su-1:hover
+{
+    box-shadow: insert-10.5em 0 0 0 #ff96ad;
+} */
+.form
+{
+    background-color: rgb(25, 1, 63);
+    color: white;
+}
+.icon {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    float: right;
+}
+  .icon:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: blue;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin{
+    background: #3905f5;
+    color: white;
+  }
+  .fa-youtube {
+    background: red;
+    color: white;
+  } 
+.menu
+{
+    color: white;
+}
+.subbtn
+{
+  background-color: rgb(133, 179, 66) !important;
+  color:white !important;
+  width: 80px;
+  cursor: pointer;
+}
+.subbtn:hover
+{
+    background-color: violet !important;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 200px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+th,td
+{
+    color: white;
+}
+tr:hover,td:hover,th:hover
+{
+    background-color: rgb(206, 214, 136);
+    color: black;
+}
